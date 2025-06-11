@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Populate card HTML with actual playlist data
         // Uses property names from your latest JSON sample (playlist_art, playlist_name, etc.)
         card.innerHTML = `
-            <img src="${playlist.playlist_art}" alt="${playlist.playlist_name} cover" class="featured-image">
+            <div class = "image-shine">
+                <img src="${playlist.playlist_art}" alt="${playlist.playlist_name} cover" class="featured-image">
+            </div>
             <h3>${playlist.playlist_name}</h3> 
             <p class="playlist-author">by ${playlist.playlist_author}</p>
             <p class="playlist-description">${playlist.description}</p>
