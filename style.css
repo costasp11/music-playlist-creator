@@ -77,12 +77,16 @@ nav a:hover {
 }
 
 .playlist-section h2 {
-    text-align: center;
+    padding-left: 90px;
     margin-bottom: -35px;
     font-size: 2.2em; /* Larger font for better gradient visibility */
     font-weight: bold; /* Make it bold for more impact */
     color: #333;
-
+    text-shadow: 
+        0 0 10px rgba(179, 186, 247, 0.7), /* Lighter glow */
+        0 0 20px rgba(179, 186, 247, 0.5), /* Medium glow */
+        0 0 2px rgba(179, 186, 247, 0.3), /* Wider, softer glow */
+        0 2px 5px rgba(0, 0, 0, 0.6); /* A subtle dark shadow for depth/lift */
 }
 
 

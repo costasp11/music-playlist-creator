@@ -71,13 +71,18 @@ nav a:hover {
 }
 
 .main-container h2 {
+    padding-left: 90px;
     margin-top: 0;
     color: #333;
-    text-align: center; /* Center the main heading */
     margin-bottom: 20px;
     padding: 40px 40px;
     font-size: 2.1em; 
     font-weight: bold;
+    text-shadow: 
+    0 0 10px rgba(179, 186, 247, 0.7), /* Lighter glow */
+    0 0 20px rgba(179, 186, 247, 0.5), /* Medium glow */
+    0 0 2px rgba(179, 186, 247, 0.3), /* Wider, softer glow */
+    0 2px 5px rgba(0, 0, 0, 0.6); /* A subtle dark shadow for depth/lift */
 }
 
 /* New styles for the two-column layout */
