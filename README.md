@@ -6,7 +6,7 @@ Submitted by: **Constantinos Papanicolaou**
 
 Estimated time spent: **20** hours spent in total
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://costasp11.github.io/music-playlist-creator/featured.html)
 
 ### Application Features
 
@@ -132,9 +132,8 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
+[![Watch the video walkthrough](https://i.imgur.com/your-video-thumbnail.png)](https://www.loom.com/share/c7fa14196aa341d4abd13962f4569012?sid=42b4487f-3144-4ae8-a796-51e643b9e2c1)
 
-`ADD_EMBEDDED_CODE_HERE`
 
 ### Reflection
 
