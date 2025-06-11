@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Music Playlist Explorer</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "site-header">
+        <!-- Your header content here -->
+        <div class = "header-container">
+            <h1>Music Playlist Explorer</h1>
+            <nav> 
+                <ul>
+                    <li> <input type = "text" id = "nav-search" placeholder = "Search playlists..."> </input> </li>
+                    <li><a href="featured.html" id = "nav-featured" class = "nav-link">Featured</a></li>
+                    <li><a href="index.html" id = "nav-all" class = "nav-link">All</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main> 
+        <!-- main playlist container -->
+        <div class = "main-container">
+            <div class = "playlist-section">
+                <h2>All Playlists</h2>
+                <div id = "featured-playlists" class = "playlist-grid">
+                    <!-- Featured playlists will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+
+    
+    </main>
+
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+
+    <!-- MODAL OVERLAY STRUCTURE START -->
+    <div id="festivalModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="modal-header">
+                <img src="assets/img/song.png" id="playlistImage">
+                <div class="playlist-info">
+                    <h2 id="playlistTitle">Playlist Title</h2> <h3 id="creatorName">Creator Name</h3>     
+                </div>
+                <span class = "shuffle-button" id = "shuffleButton">Shuffle</span>
+            </div>
+
+            <div class="song-container">
+
+            </div>
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
